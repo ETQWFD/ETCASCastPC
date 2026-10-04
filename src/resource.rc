@@ -1,0 +1,29 @@
+#include <windows.h>
+APPICON ICON "etcas.ico"
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,7,0
+ PRODUCTVERSION 1,0,7,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "ETC"
+            VALUE "FileDescription", "ETCAS 投屏 电脑版（纯 C 原生，无 Java）"
+            VALUE "FileVersion", "1.0.7"
+            VALUE "InternalName", "ETCAS Cast PC"
+            VALUE "LegalCopyright", "Copyright (c) 2026 ETC"
+            VALUE "OriginalFilename", "ETCAS-Cast-PC.exe"
+            VALUE "ProductName", "ETCAS 投屏"
+            VALUE "ProductVersion", "1.0.7"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
